@@ -399,6 +399,6 @@ void MQTTJulkaisu(){
 
 
     client.publish(MBED_CONF_APP_MQTT_TOPIC, msg);
-    printf("Published to %s\n",MBED_CONF_APP_MQTT_TOPIC)
+    printf("Published to %s\n",MBED_CONF_APP_MQTT_TOPIC);
 }
 
